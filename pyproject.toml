@@ -1,0 +1,22 @@
+[project]
+name = "ai-example-project"
+version = "1.0.0"
+description = "Example project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests==2.31.0",
+    "python-dotenv==1.1.0",
+    "transformers>=4.55.2",
+    "datasets>=2.19.1",
+    "evaluate>=0.4.5",
+    "accelerate>=1.10.0",
+    "timm>=1.0.19",
+    "huggingface-hub[cli]>=0.34.4",
+    "mlx>=0.28.0",
+    "torch>=2.8.0",
+    "langchain-ollama>=0.3.6",
+]
+
+[tool.uv]
+dev-dependencies = []
